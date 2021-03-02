@@ -387,12 +387,12 @@ class Reducer:
 ### 结果分析与展示
 
 在实验输出的基础上，我们对词同现关系做了可视化，在接下来的图中，节点的大小表明其PageRank值的大小，节点的颜色表明了其位于的group（标签传播算法的标签），有较多联系的节点位置会相邻在一起，联系较少的节点会彼此远离：
-
+[图片1](https://github.com/FancyYan123/WuXiaWorld/blob/main/resultfig/fig1.PNG?raw=true)
 
 我们可以看出，图基本上围绕着小说的主人公进行展开，且主人公一般占据着最显眼的位置（节点最大），不同小说之间由于联系较少分得比较开，如下图：
-
+[图片2](https://github.com/FancyYan123/WuXiaWorld/blob/main/resultfig/fig2.PNG?raw=true)
 但是有的小说人物之间有紧密联系，其节点挨得比较近，如射雕英雄传和神雕侠侣：
-
+[图片3](https://github.com/FancyYan123/WuXiaWorld/blob/main/resultfig/fig3.PNG?raw=true)
 
 ### 优化与效果
 
